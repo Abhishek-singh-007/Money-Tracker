@@ -2,7 +2,10 @@
 
 A modern, responsive web application for tracking personal finances. Built using **Next.js**, **React**, **shadcn/ui**, **Recharts**, and **MongoDB**, this app helps users manage expenses, visualize spending habits, and stay on budget with a clean and intuitive interface.
 
-👨‍💻 Created by Abhishek
+👨‍💻 Created by Abhishek(https://my-portfolio-six-tau-59.vercel.app/)
+ View website(
+https://pern-stack-expense-tracker.netlify.app/sign-up
+
 
 ## 🚀 Features by Stage
 
