@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Budget Tracker App - Backend
 
 ## Overview
@@ -43,3 +44,6 @@ You can find the frontend code for this project here:
 
 This project is licensed under the [MIT License](./LICENSE).
 
+=======
+# Money-Tracker
+>>>>>>> 744a8629f8cc9c54a91df8796a220d5b07214572
