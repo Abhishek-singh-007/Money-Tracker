@@ -1,49 +1,71 @@
-<<<<<<< HEAD
-# Budget Tracker App - Backend
+# 💰 Personal Finance Visualizer
 
-## Overview
-This is the backend repository for the Budget Tracker App. It handles user authentication, transaction management, and data storage. The backend is designed to interact seamlessly with the frontend through a RESTful API.
+A modern, responsive web application for tracking personal finances. Built using **Next.js**, **React**, **shadcn/ui**, **Recharts**, and **MongoDB**, this app helps users manage expenses, visualize spending habits, and stay on budget with a clean and intuitive interface.
 
-## Frontend Repository
-You can find the frontend code for this project here:  
-🔗 [Budget Tracker - Frontend](https://github.com/mayurrogheliya/budget-tracker-frontend)
+👨‍💻 Created by Abhishek
 
-## Features
-- User authentication with JWT (login, register, and token refresh)
-- CRUD operations for transactions
-- Secure password hashing
-- MongoDB as the database
-- Error handling and validation
+## 🚀 Features by Stage
 
-## Technologies Used
-- **Node.js** and **Express.js** for server-side logic
-- **MongoDB** for the database
-- **Mongoose** for database schema and queries
-- **JWT** for authentication
-- **Axios** for HTTP requests
+### ✅ Stage 1: Basic Transaction Tracking
+- Add, edit, and delete transactions with fields:
+  - Amount
+  - Date
+  - Description
+- Transaction list view with recent entries
+- Monthly expense bar chart (Recharts)
+- Basic form validation (shadcn/ui)
 
-## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/mayurrogheliya/budget-tracker-backend.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd budget-tracker-backend
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the server:
-   ```bash
-   npm start
-   ```
+---
 
-## License
+### ✅ Stage 2: Categories (Includes all Stage 1 features)
+- Predefined transaction categories (e.g., Food, Travel, Bills, Others)
+- Category-wise **pie chart**
+- Summary dashboard with:
+  - Total expenses
+  - Most recent transactions
+  - Category-wise breakdown
 
-This project is licensed under the [MIT License](./LICENSE).
+---
 
-=======
-# Money-Tracker
->>>>>>> 744a8629f8cc9c54a91df8796a220d5b07214572
+### ✅ Stage 3: Budgeting (Includes all Stage 2 features)
+- Set monthly budget for each category
+- Visual **budget vs actual** comparison chart
+- Simple spending insights based on usage trends
+  - Overspending alerts
+  - Budget utilization percentage
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend**: [Next.js](https://nextjs.org/), [React](https://reactjs.org/)
+- **UI Kit**: [shadcn/ui](https://ui.shadcn.com/)
+- **Charts**: [Recharts](https://recharts.org/)
+- **Database**: [MongoDB](https://www.mongodb.com/)
+- **Styling**: Tailwind CSS
+
+---
+
+## 📱 Responsive Design
+
+Fully responsive UI supporting:
+- Desktop 💻
+- Tablet 📱
+- Mobile 📲
+
+With proper **error states**, form validation, and clean user experience across all devices.
+
+---
+
+## 🧪 Evaluation Criteria Mapping
+
+| Criteria              | Implementation Detail                                                                 |
+|-----------------------|----------------------------------------------------------------------------------------|
+| Feature Implementation | All 3 stages of features implemented cleanly and progressively                       |
+| Code Quality           | Modular structure, reusable components, proper naming conventions, clean commit history |
+| UI/UX Design           | Responsive layout, shadcn/ui integration, accessible and modern UX, charts and alerts |
+
+---
+
+## 📂 Folder Structure (Key)
+
